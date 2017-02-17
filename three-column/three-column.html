@@ -4,6 +4,9 @@
     <title>My Bio</title>
     <link rel="stylesheet" type="text/css" href="../css/main.css">
     <style>
+    .main-content{
+        background-color: black;
+    }
     section.three-column {
         margin-top:30px;
     }
@@ -11,7 +14,7 @@
         width:15%;
     }
     aside.sidebar-right {
-        width:18%;
+        width:21%;
         background-color:#CCC;
         height:100%;
         float:right;
@@ -19,7 +22,7 @@
         padding:1%;
     }
     article.three-column-content {
-        width:61%;
+        width:58%;
         position:absolute;
         left:15%;
         float:none;
@@ -42,27 +45,34 @@
     table.courses-table td, table.courses-table th {
 
     }
+    .Classes {
+        color: white;
+    }
+    .sidebar {
+        border: white;
+    }
+  
     </style>
 </head>
 <body>
-    <div class="wrapper">
+    <div class="wrapper non-login-page">
         <header class="main-header box-shadow">
-            <h1>Lucas Phan</h1>
+            <h1>Armando Adame</h1>
         </header>
         <section class="content-bottom three-column">
             <aside class="sidebar three-column">
                 <ul class="sidebar-links">
-                    <li><a href="http://www.google.com" target="_blank">Google.com</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
+                    <li><a href="file:///C:/git/IS183/Assignments/Assignment03/home/home.html" target="_blank">Home Page</a></li>
+                    <li><a href="http://www.youtube.com" target="_blank">YouTube.com</a></li>
+					<li><a href="http://www.facebook.com" target="_blank">Facebook.com</a></li>
+					<li><a href="http://www.pandora.com" target="_blank">Pandora.com</a></li>
+					<li><a href="http://www.amazon.com" target="_blank">Amazon.com</a></li>
+					<li><a href="http://www.craigslist.org" target="_blank" >Craigslist.org</a></li>
                 </ul>
             </aside>
             <article class="main-content three-column-content">
                 <div class="gallery">
-                    <h1>My Courses</h1>
+                    <h1 class="Classes">My Courses</h1>
                     <table class="courses-table">
                         <tr>
                             <th>Course</th>
@@ -71,47 +81,55 @@
                             <th>Days</th>
                         </tr>
                         <tr>
-                            <td>IS183</td>
+                            <td>MGT 124</td>
+                            <td>12345</td>
+                            <td>A.Arakelin</td>
+                            <td>M/W</td>
+                        </tr>
+                        <tr>
+                            <td>CRIM 153</td>
+                            <td>12345</td>
+                            <td>Kissner</td>
+                            <td>T/Th</td>
+                        </tr>
+                        <tr>
+                            <td>IS 183</td>
                             <td>12345</td>
                             <td>LPhan</td>
                             <td>T/Th</td>
                         </tr>
                         <tr>
-                            <td>IS183</td>
+                            <td>IS 182</td>
                             <td>12345</td>
-                            <td>LPhan</td>
+                            <td>J.Canelon</td>
                             <td>T/Th</td>
                         </tr>
                         <tr>
-                            <td>IS183</td>
+                            <td>IS 187</td>
                             <td>12345</td>
-                            <td>LPhan</td>
-                            <td>T/Th</td>
-                        </tr>
-                        <tr>
-                            <td>IS183</td>
-                            <td>12345</td>
-                            <td>LPhan</td>
-                            <td>T/Th</td>
-                        </tr>
-                        <tr>
-                            <td>IS183</td>
-                            <td>12345</td>
-                            <td>LPhan</td>
+                            <td>Kwon</td>
                             <td>T/Th</td>
                         </tr>
                     </table>
                 </div>
             </article>
             <aside class="sidebar-right">
-                <h1>This is Heading</h1>
-                <p>Hi there...</p>
+                <h1>Class Info</h1>
+                <p>Class Times:<br><br>
+                        MGT 124 6:00PM - 7:50PM<br><br>
+                        CRIM 153 12:30PM - 1:45PM<br><br>
+                        IS 183 2:00PM - 3:50PM<br><br>
+                        IS 182 6:00PM - 7:50PM<br><br>
+                            &emsp;Lab 8:00PM - 9:50PM<br><br>
+                        IS 187 6:00PM - 7:50PM<br><br>
+                            &emsp;Lab 8:00PM - 9:50PM<br><br>
+                </p>
             </aside>
         </section>
     </div>
     <footer class="footer box-shadow">
         <p class="copyright">
-            (c) Created by Lucas Phan
+            (c) Created by Armando Adame
         </p>
     </footer>
 </body>

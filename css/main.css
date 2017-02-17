@@ -15,17 +15,18 @@
                 flex:1;
             }
             .main-header {
-                background-color: #CCC;
+                background-color: black;
                 height: 50px;
                 width: 70%;
                 padding: 5px 15%;
+                color: blue;
             }
             .main-header h1 {
                 line-height: 50px;
             }
             .footer {
                 height: 50px;
-                background-color: #CCC;
+                background-color: black;
             }
             span.logo {
                 color: blue;
@@ -45,17 +46,18 @@
             }
             .content-top {
                 height: 180px;
-                background-color: #CCC;
+                background-color: transparent;
                 margin: 10px 0;
             }
 
             .content-bio {
                 position: relative;
-                background-color: #AAA;
+                background-color: black;
                 width: 70%;
                 max-width:980px;
                 height: 180px;
                 margin: 0 auto;
+                color: white;
             }
             .content-bio img {
                 width: 150px;
@@ -76,7 +78,7 @@
             }
             .sidebar {
                 float: left;
-                background-color: #f1f1f1;
+                background-color: black;
                 width: 25%;
                 height: 500px;
             }
@@ -90,7 +92,7 @@
             }
 
             .sidebar-links {
-                background-color: #f1f1f1;
+                background-color: black;
             }
             .sidebar-links li {
                 width: 100%;
@@ -99,6 +101,7 @@
                 border-top: 1px solid #FFF;
             }
             .sidebar-links a {
+                color: blue;
                 display: block;
                 padding: 7px;
                 text-decoration: none;
@@ -125,3 +128,54 @@
 				width:125px;
 				height:100px;
 			}
+
+            
+            
+             section.one-column {
+            margin-top:30px;
+        }
+        article.main-content.one-column {
+            width:100%;
+            padding:0;
+            background-color:transparent;
+        }
+        div.login-form {
+            padding:20px;
+            width:300px;
+            height:250px;
+            background-color:#CCC;
+            margin:90px auto 0;
+            border-radius:7px;
+        }
+        input.login-input {
+            width:100%;
+            padding:5px 2px;
+            border-radius:5px;
+            margin:7px 0;
+        }
+        h1.login-h1 {
+            margin-bottom:15px;
+        }
+        button.login-button {
+            padding:5px 15px;
+            border-radius:7px;
+            background-color:blueviolet;
+            color:#FFF;
+        }
+        p.error-message{
+           display:none;
+            margin-top:10px;
+            padding:5px;
+            width:100%;
+            color:#FFF;
+            background-color:orangered;
+            border:1px solid yellow;
+            border-radius:5px;
+        }
+        div.login-page {
+            background-image:url('../images/login-background.jpg');
+            background-size:cover;
+        }
+        div.non-login-page {
+            background-image: url(../images/gallery/background.jpg);
+        }
